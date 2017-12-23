@@ -6,6 +6,7 @@ void Main()
 	Planet planet;
 }
 
+
 Planet::Planet()
 {
 	const auto nodeLineThickness = 8.0;
