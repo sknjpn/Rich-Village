@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Forest",
+        "size": 512.0,
+        "color": "(0, 128, 0)"
+    },
+    {
+        "name": "Plain",
+        "size": 96.0,
+        "color": "(96, 96, 96)"
+    },
+    {
+        "name": "Dungeon",
+        "size": 512.0,
+        "color": "(64, 64, 64)"
+    }
+]

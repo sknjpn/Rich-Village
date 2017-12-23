@@ -1,0 +1,109 @@
+[
+    {
+        "name": "ForesterLodge",
+        "color":"(185, 122, 87)",
+        "price": 1000,
+        "biome": "Forest",
+        "work": {
+            "needCost": 600,
+            "earnItems": {
+                "Wood": 20
+            }
+        },
+        "maxWork": 2
+    },
+    {
+        "name": "HuntingCabin",
+        "color":"(128, 128, 0)",
+        "price": 1000,
+        "biome": "Forest",
+        "work": {
+            "needCost": 600,
+            "earnItems": {
+                "Fur": 5,
+                "Meat": 10
+            }
+        },
+        "maxWork": 2
+    },
+    {
+        "name": "Camp",
+        "color":"(128, 0, 0)",
+        "price": 1000,
+        "biome": "Dungeon",
+        "work": {
+            "needCost": 600,
+            "earnGold": 100
+        },
+        "maxWork": 4
+    },
+    {
+        "name": "Tailor",
+        "color":"(0, 128, 128)",
+        "price": 1000,
+        "biome": "Plain",
+        "work": {
+            "needCost": 600,
+            "needItems": {
+                "Fur": 5
+            },
+            "earnItems": {
+                "Coat": 5
+            }
+        },
+        "maxWork": 1
+    },
+    {
+        "name": "CropField",
+        "color":"(0, 64, 0)",
+        "price": 1000,
+        "biome": "Plain",
+        "work": {
+            "needCost": 600,
+            "earnItems": {
+                "Wheat": 50
+            }
+        },
+        "maxWork": 4
+    },
+    {
+        "name": "Windmill",
+        "color":"(192, 192, 192)",
+        "price": 1000,
+        "biome": "Plain",
+        "work": {
+            "needCost": 600,
+            "needItems": {
+                "Wheat": 20
+            },
+            "earnItems": {
+                "Flour": 20
+            }
+        },
+        "maxWork": 2
+    },
+    {
+        "name": "Bakery",
+        "color":"(128, 0, 128)",
+        "price": 1000,
+        "biome": "Plain",
+        "work": {
+            "needCost": 600,
+            "needItems": {
+                "Flour": 20,
+                "Wood": 20
+            },
+            "earnItems": {
+                "Bread": 20
+            }
+        },
+        "maxWork": 2
+    },
+    {
+        "name": "WoodenHouse",
+        "color":"(0, 128, 0)",
+        "price": 1000,
+        "biome": "Plain",
+        "maxLive": 16
+    }
+]

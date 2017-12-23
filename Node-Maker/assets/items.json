@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Wood",
+        "texture":"assets/items/Wood.png"
+    },
+    {
+        "name": "Wheat",
+        "texture":"assets/items/Wheat.png"
+    },
+    {
+        "name": "Flour",
+        "texture":"assets/items/Flour.png"
+    },
+    {
+        "name": "Bread",
+        "texture":"assets/items/Bread.png",
+        "food": 1200
+    },
+    {
+        "name": "Meat",
+        "texture":"assets/items/Meat.png",
+        "food": 1200
+    },
+    {
+        "name": "Fur",
+        "texture":"assets/items/Fur.png"
+    },
+    {
+        "name": "Coat",
+        "texture":"assets/items/Coat.png",
+        "clothes": 10800
+    }
+]
