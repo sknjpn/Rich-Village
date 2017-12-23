@@ -47,7 +47,7 @@ Planet::Planet()
 
 	units.reserve(4096);
 
-	for (int i = 0; i < 128; i++)
+	for (int i = 0; i < 150; i++)
 	{
 		auto& u = units.emplace_back(this);
 		u.name = L"hoge";
@@ -61,7 +61,7 @@ Planet::Planet()
 
 	for (auto& n : nodes)
 	{
-		if (RandomBool(1.0)) continue;
+		if (RandomBool(0.1)) continue;
 		auto& f = n.facitity;
 		f.enabled = true;
 		while (f.fData == nullptr || f.fData->biome != n.bData)
